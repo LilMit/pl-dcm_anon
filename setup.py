@@ -11,7 +11,7 @@ setup(
     long_description = readme,
     author           = 'FNNDSC',
     author_email     = 'dev@babyMRI.org',
-    url              = 'http://wiki',
+    url              = 'https://github.com/LilMit/pl-dcm_anon',
     packages         = ['dcm_anon'],
     install_requires = ['chrisapp'],
     test_suite       = 'nose.collector',

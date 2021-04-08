@@ -282,7 +282,7 @@ class dcm_anon(ChrisApp):
         print(Gstr_title)
         print('Version: %s' % self.get_version())
 
-         pf_dicom_tagSub = pfdicom_tagSub.pfdicom_tagSub(
+        pf_dicom_tagSub = pfdicom_tagSub.pfdicom_tagSub(
                         inputDir            = options.inputdir,
                         inputFile           = options.inputFile,
                         extension           = options.extension,
@@ -297,7 +297,7 @@ class dcm_anon(ChrisApp):
                         json                = options.jsonReturn
                     )
 
-         d_pfdicom_tagSub = pf_dicom_tagSub.run(timerStart = True)
+        d_pfdicom_tagSub = pf_dicom_tagSub.run(timerStart = True)
 
         if options.printElapsedTime: 
             pf_dicom_tagSub.dp.qprint(
