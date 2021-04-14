@@ -6,7 +6,7 @@ with open(path.join(path.dirname(path.abspath(__file__)), 'README.rst')) as f:
 
 setup(
     name             = 'dcm_anon',
-    version          = '0.1',
+    version          = '1.0.0',
     description      = 'An app to anonymize dicom tags using the pfdicom_tagSub module',
     long_description = readme,
     author           = 'FNNDSC',
