@@ -121,6 +121,7 @@ Debug
 Invariably, some debugging will be required. In order to debug efficiently, map the following into their respective locations in the container:
 
 .. code:: bash
+
     docker run -it --rm -v $(pwd)/in:/incoming -v $(pwd)/out:/outgoing      \
             -v $(pwd)/dcm_anon/dcm_anon.py:/usr/src/dcm_anon/dcm_anon.py  \
             -v $(pwd)/dcm_anon/pfdicom_tagSub.py:/usr/local/lib/python3.5/dist-packages/pfdicom_tagSub/pfdicom_tagSub.py \
