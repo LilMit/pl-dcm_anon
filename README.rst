@@ -4,7 +4,7 @@ pl-dcm_anon
 .. image:: https://img.shields.io/docker/v/parrmi/pl-dcm_anon?sort=semver
     :target: https://hub.docker.com/r/parrmi/pl-dcm_anon
 
-.. image:: https://img.shields.io/github/license/parrmi/pl-dcm_anon
+.. image:: https://img.shields.io/github/license/LilMit/pl-dcm_anon
     :target: https://github.com/LilMit/pl-dcm_anon/blob/master/LICENSE
 
 .. image:: https://github.com/LilMit/pl-dcm_anon/workflows/ci/badge.svg
