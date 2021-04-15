@@ -5,10 +5,10 @@ pl-dcm_anon
     :target: https://hub.docker.com/r/parrmi/pl-dcm_anon
 
 .. image:: https://img.shields.io/github/license/parrmi/pl-dcm_anon
-    :target: https://github.com/FNNDSC/pl-dcm_anon/blob/master/LICENSE
+    :target: https://github.com/LilMit/pl-dcm_anon/blob/master/LICENSE
 
-.. image:: https://github.com/FNNDSC/pl-dcm_anon/workflows/ci/badge.svg
-    :target: https://github.com/FNNDSC/pl-dcm_anon/actions
+.. image:: https://github.com/LilMit/pl-dcm_anon/workflows/ci/badge.svg
+    :target: https://github.com/LilMit/pl-dcm_anon/actions
 
 
 .. contents:: Table of Contents
