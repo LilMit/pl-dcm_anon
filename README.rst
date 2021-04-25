@@ -143,7 +143,17 @@ Make sure that the host $(pwd)/out directory is world writable!
 Examples
 --------
 
-Put some examples here!
+Using --tagInfo instead of --tagStruct:
+
+.. code:: bash
+
+    docker run -it --rm -v $(pwd)/in:/incoming -v $(pwd)/out:/outgoing  \
+            parrmi/pl-dcm_anon:1.0.2 dcm_anon                      \
+            --tagInfo '"PatientName":"anonymized";
+    "PatientID":"%_md5|7_PatientID";
+    "AccessionNumber":"%_md5|10_AccessionNumber";
+    "PatientBirthDate":"%_strmsk|******01_PatientBirthDate"' -v 2 -e .dcm                                  \
+            /incoming /outgoing
 
 
 .. image:: https://raw.githubusercontent.com/FNNDSC/cookiecutter-chrisapp/master/doc/assets/badge/light.png
