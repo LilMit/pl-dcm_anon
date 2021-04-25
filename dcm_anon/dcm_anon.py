@@ -15,6 +15,8 @@ import json
 from chrisapp.base import ChrisApp
 
 import pfdicom_tagSub
+import pudb
+import sys
 
 
 
@@ -315,6 +317,7 @@ class dcm_anon(ChrisApp):
                                 "Elapsed time = %f seconds" % 
                                 d_pfdicom_tagSub['runTime']
                             )
+
 
     def show_man_page(self):
         """

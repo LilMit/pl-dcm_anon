@@ -9,3 +9,4 @@ htmlcov
 .idea/
 .vscode/
 venv/
+Dcm_anon.json
