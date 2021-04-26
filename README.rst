@@ -100,6 +100,8 @@ You need to specify input and output directories using the `-v` flag to `docker 
 
 Assuming that $(pwd)/in contains a tree of DICOM files, then the above will generate, for each leaf directory node in $(pwd)/in that contains files satisfying the search constraint of ending in .dcm, new DICOM files with the above tag subsitutions: The PatientName is set to anonymized, the PatientID is replaced with the first seven chars of an md5 hash of the original PatientID -- similarly for the AssessionNumber. Finally the PatientBirthDate is masked so that the birthday is set to the first of the month.
 
+Running the program with no --tagStruct or --tagInfo arg defaults to the tagStruct shown in the example above.
+
 Development
 -----------
 

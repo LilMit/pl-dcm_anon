@@ -286,6 +286,9 @@ class dcm_anon(ChrisApp):
             raise ValueError(msg)
         if self.options.tagInfo:
             return self.tag_info_to_struct(self.options.tagInfo)
+        if !(self.options.tagInfo or self.options.tagstruct):
+            tagInfo = '"PatientName":"anonymized";"PatientID":"%_md5|7_PatientID";"AccessionNumber":"%_md5|10_AccessionNumber";"PatientBirthDate":"%_strmsk|******01_PatientBirthDate"'
+            return self.tag_info_to_struct(tagInfo)
         return self.options.tagStruct
 
     def run(self, options):
